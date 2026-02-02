@@ -31,11 +31,10 @@ I am a **Software Engineer** with over **2+ years of experience** building high-
 
 ---
 
-### 📊 Engineering Statistics
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Moumen-Qasiim&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moumen-Qasiim&layout=compact&theme=tokyonight" />
-</p>
+### 📊 GitHub Metrics
+![Stars](https://img.shields.io/github/stars/Moumen-Qasiim?style=flat-square&color=gold)
+![Followers](https://img.shields.io/github/followers/Moumen-Qasiim?style=flat-square&color=blue)
+![Repo Count](https://img.shields.io/github/repos/count/Moumen-Qasiim?style=flat-square&color=success)
 
 ---
 
