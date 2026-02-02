@@ -31,12 +31,6 @@ I am a **Software Engineer** with over **2+ years of experience** building high-
 
 ---
 
-### 📊 GitHub Metrics
-![Stars](https://img.shields.io/github/stars/Moumen-Qasiim?style=flat-square&color=gold)
-![Followers](https://img.shields.io/github/followers/Moumen-Qasiim?style=flat-square&color=blue)
-![Repo Count](https://img.shields.io/github/repos/count/Moumen-Qasiim?style=flat-square&color=success)
-
----
 
 ### 📫 Connect with me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/[YOUR_LINK])
