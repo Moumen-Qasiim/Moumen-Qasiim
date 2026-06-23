@@ -22,10 +22,6 @@ I am a **Software Engineer** with over **2+ years of experience** building high-
 - **Cloud & DevOps:** Docker, AWS S3, Google Cloud Storage.
 - **Databases:** PostgreSQL, SQL Server, Oracle, MySQL.
 
----
-# GitHub Trophies
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Moumen-Qasiim&theme=onedark)](https://github.com/Moumen-Qasiim)
----
 
 ### 🧠 Current Focus: AI & Efficiency
 - 🔭 **Learning:** AI Engineering (LLMs, prompt engineering, and model integration).
