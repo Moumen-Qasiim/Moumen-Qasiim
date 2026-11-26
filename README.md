@@ -27,4 +27,53 @@ I write software for the hard parts — concurrency, auth boundaries, distribute
 
 ---
 
+<details>
+<summary><strong>Full technical &amp; systems skill breakdown</strong> (click to expand)</summary>
+
+#### Languages
+C# (`.NET 10`), Python (`3.11+`), TypeScript, JavaScript, SQL, Bash / Shell, HTML / CSS
+
+#### Backend Frameworks & Architecture
+- **.NET:** ASP.NET Core (Minimal APIs & Controllers), EF Core 10, .NET Aspire (`AppHost` / `ServiceDefaults`), Central Package Management (`Directory.Packages.props`), strict Roslyn analyzer enforcement (`TreatWarningsAsErrors`)
+- **Python:** FastAPI, SQLAlchemy 2.0, Alembic, Pydantic / `pydantic-settings`, Uvicorn / Gunicorn
+- **Node.js / TypeScript:** NestJS (`@nestjs/core`, `@nestjs/common`), Express
+- **Patterns:** Clean Architecture, Layered Architecture, Modular Monoliths, Vertical Slice Architecture, custom CQRS Mediator & `FluentValidation` pipeline behaviors, Specification pattern, Domain Events, `Result` pattern, RFC 7807 `ProblemDetails`, Transactional Outbox / Inbox (`ExecuteUpdateAsync` claim leasing), Strangler-Fig legacy migrations
+
+#### Databases, Vectors & Caching
+- **Relational:** PostgreSQL (`Npgsql`, `psycopg`), SQL Server, SQLite
+- **Vectors & Search:** `pgvector` cosine similarity search, embeddings ingestion & retrieval pipelines, text/markdown chunking, RAG pipelines (`Microsoft.Extensions.AI` + Ollama, Python `pgvector`)
+- **Caching & Multi-Tenancy:** Redis (rate limiting, per-user/IP auth lockouts, distributed cache), `Finbuckle.MultiTenant`, `ContextVar` tenant scoping, dynamic EF Core expression-tree global query filters (soft-delete & tenant isolation), optimistic concurrency (`RowVersion` conflict retries), bulk seeding
+
+#### Servers, VPS Infrastructure & DevOps
+- **Server Provisioning & Operations:** Setting up raw rented Linux VPS servers from scratch, SSH hardening, `systemd` service daemons, `iptables` container network isolation
+- **Containers & Proxies:** Docker, multi-service Docker Compose stacks, Nginx, Traefik, TLS/reverse proxy routing, automated health & readiness polling scripts
+- **CI/CD & Observability:** GitHub Actions (selective multi-service builds, migration & preflight gating, automated PR workflows), Makefiles, Serilog, OpenTelemetry, structured JSON logging, `MailKit` / templated SMTP pipelines
+- **Messaging & Object Storage:** Hangfire, RabbitMQ, S3 / MinIO (`boto3`, `@aws-sdk/client-s3`)
+
+#### Applied AI & Document / Domain Processing
+- **LLM Infrastructure:** In-process multi-provider AI gateways (`google-genai`, OpenAI-compatible, RunPod serverless vLLM), model fallbacks, retries, circuit breakers, structured JSON schema outputs, multi-turn tool calling
+- **Data Guardrails & Tooling:** Sensitive-data / PII scrubbing & tokenization pipelines, fail-closed provider & tenant resolution, MCP servers (`fastmcp`, `mcp`), survival/statistical analytics (`lifelines`, `scikit-learn`), CAD & document pipelines (`ezdxf`, `ezdwg`, `pypdf`, `python-docx`, `reportlab`)
+
+#### Real-Time, Streaming & Low-Level I/O
+- **SignalR & Protocols:** Server-to-client `IAsyncEnumerable`, client-to-server `ChannelReader<T>`, custom binary `IHubProtocol` over `MessagePackHubProtocol`
+- **Memory & Zero-Alloc Primitives:** `Span<byte>`, `ArrayPool<byte>`, `IBufferWriter<byte>`, `ReadOnlySequence<byte>`, `BinaryPrimitives`
+- **SSE & Browser Workers:** `fetch` `ReadableStream` SSE parsing, cross-tab `SharedWorker` stream persistence
+
+#### Auth, Security & Code Review
+- **AuthN / AuthZ:** JWT (`PyJWT`, `JwtBearer`, `jsonwebtoken`), Cookie Auth, OAuth 2.0 & SSO, TOTP MFA (`pyotp`), break-glass recovery flows, HMAC-signed session tokens, constant-time comparisons
+- **Crypto & Hardening:** `argon2-cffi`, `bcrypt`, `AesGcm`, `HKDF`, `CryptographicOperations.ZeroMemory`, RBAC permission factories, security headers & request body-size middleware
+- **Code Review & Engineering Standards:** Auditing PRs for auth bypasses, tenant leaks, concurrency bugs, and failure modes; architecture boundary tests; ADRs, Diátaxis docs, and operational runbooks
+
+#### Linux Systems & Hardware Tooling
+- Reading kernel `sysfs` / `hwmon` CPU & GPU thermal/frequency telemetry, CPU boost thermal hysteresis controllers, `systemd` background watchdogs
+- Linux CLI / TUI tooling (`pacman` package/desktop entry indexing with `mtime` caching, Flatpak/AppImage management, Hyprland display management scripts)
+
+#### Testing & Frontend (End-to-End Delivery)
+- **Testing:** `xUnit`, `FluentAssertions`, `NSubstitute`, `NetArchTest`, `WebApplicationFactory`, `Testcontainers.PostgreSql`, `Respawn`, `pytest`, `pytest-asyncio`, Starlette `TestClient`, `node --test` / `tsx`, React Testing Library, `jsdom`
+- **Frontend:** React (`18` / `19`), Next.js `16`, TypeScript, JavaScript, Vite, `@tanstack/react-query`, Tailwind CSS, RTL & multi-locale i18n
+
+</details>
+
+---
+
 > Most of my production and client work lives in private repositories.
