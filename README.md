@@ -2,7 +2,7 @@
 
 **Backend & Systems Engineer** · Working remote · Building things that don't break under load.
 
-I write software for the hard parts — concurrency, auth boundaries, distributed state, protocols, server infrastructure, and getting real AI systems to behave reliably in production. Not here for hype or surface polish; I enjoy the grind of taking ugly, fragile systems and making them solid.
+I write software for the hard parts — concurrency, auth boundaries, distributed state, protocols, server infrastructure, and getting real AI systems to behave reliably in production. Not here for hype or surface polish; I enjoy the grind of taking ugly, fragile systems and making them solid. I use AI tools for leverage, and I actually read, review, and verify the code that ships.
 
 ---
 
