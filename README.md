@@ -8,7 +8,7 @@ I write software for the hard parts — concurrency, auth boundaries, distribute
 
 ### What I Do
 
-- **Architecture & Code Review:** Designing and refactoring systems using **Clean Architecture**, **Layered Architecture**, and **Modular Monoliths** (`.NET` & `FastAPI`) — enforcing strict layer boundaries, reviewing code for correctness, security, and failure modes, and decomposing legacy monoliths without breaking live traffic.
+- **Architecture & Code Review:** Designing and refactoring systems using **Clean Architecture**, **Layered Architecture**, and **Modular Monoliths** (`.NET`, `FastAPI`, `NestJS`) — enforcing strict layer boundaries, reviewing code for correctness, security, and failure modes, and decomposing legacy monoliths without breaking live traffic.
 - **Servers & Full Infrastructure:** Taking raw rented servers from a blank OS to full production environments — Docker / Compose stacks, Nginx / Traefik reverse proxies, TLS, PostgreSQL & Redis operations, SSH/network hardening, automated migrations, readiness checks, and CI/CD pipelines.
 - **Data, Vectors & Applied AI:** PostgreSQL schema design, optimistic concurrency, tenant isolation, transactional outbox/inbox pipelines, **vector search & embeddings** (`pgvector`, RAG ingestion/retrieval), and multi-provider LLM gateways with structured outputs and strict data boundaries.
 - **Systems & Tooling:** Linux automation, background daemons/workers, and operational guardrails.
@@ -19,11 +19,11 @@ I write software for the hard parts — concurrency, auth boundaries, distribute
 
 | Area | Tools |
 |---|---|
-| **Backend & Architecture** | C# / .NET (`ASP.NET Core`, `EF Core`, `SignalR`, `Hangfire`, Clean / Layered / Modular Monolith, CQRS), Python (`FastAPI`, `SQLAlchemy`, `Alembic`) |
+| **Backend & Architecture** | C# / .NET (`ASP.NET Core`, `EF Core`, `SignalR`, `Hangfire`, Clean / Layered / Modular Monolith, CQRS), Python (`FastAPI`, `SQLAlchemy`, `Alembic`), TypeScript / JavaScript (`NestJS`, `Node.js`) |
 | **Data, Vectors & Messaging** | PostgreSQL (`pgvector`), Vector Embeddings & Similarity Search, Redis, SQL Server, RabbitMQ, S3 / MinIO |
 | **Testing & Quality** | `xUnit`, `Testcontainers`, `NetArchTest`, `pytest` |
 | **Servers & Infra** | VPS Provisioning & Full-Stack Deployment, Docker / Compose, Nginx, Traefik, GitHub Actions, Linux (`systemd`, SSH, `iptables`) |
-| **Frontend (when shipping end-to-end)** | TypeScript, React, Next.js |
+| **Frontend (when shipping end-to-end)** | TypeScript, JavaScript, React, Next.js |
 
 ---
 
