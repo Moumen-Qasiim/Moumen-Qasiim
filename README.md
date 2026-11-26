@@ -1,36 +1,30 @@
-# Hi there 👋 I'm Moumen Qasiim
-### 🚀 Backend Engineer | C# & Java Specialist | Aspiring AI Engineer
+# Moumen Qasiim
 
-I am a **Software Engineer** with over **2+ years of experience** building high-scale enterprise backends. I specialize in the .NET and Java ecosystems, focusing on robust API design, automated testing, and scalable architecture. Currently, I am leveling up into **AI Engineering** to build the next generation of intelligent systems.
+**Backend & Systems Engineer** · Working remote · Building things that don't break under load.
 
----
-
-### 🛠️ My Tech Stack
-
-**Languages & Core Tech**
-<p align="left">
-  <img src="https://img.shields.io/badge/C%23-%23239120.svg?style=flat-square&logo=c-sharp&logoColor=white" alt="C#"/>
-  <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS"/>
-  <img src="https://img.shields.io/badge/SQL-CC0000?style=flat-square&logo=mysql&logoColor=white" alt="SQL"/>
-</p>
-
-**Frameworks & Tools**
-- **.NET:** ASP.NET Core, EF Core, Identity, Minimal APIs, xUnit.
-- **Java:** Spring Boot, Jakarta EE (JAX-RS), Hibernate, Spring MVC.
-- **Cloud & DevOps:** Docker, AWS S3, Google Cloud Storage.
-- **Databases:** PostgreSQL, SQL Server, Oracle, MySQL.
-
-
-### 🧠 Current Focus: AI & Efficiency
-- 🔭 **Learning:** AI Engineering (LLMs, prompt engineering, and model integration).
-- ⚡ **Optimization:** Deep-diving into **Advanced DSA** to build performant, low-latency AI backends.
-- 📐 **Design:** Leveraging UML and Software Design Patterns for clean, maintainable systems.
+I write software for the hard parts — concurrency, auth boundaries, distributed state, protocols, deployment plumbing, and getting real AI systems to behave reliably in production. Not here for hype or surface polish; I enjoy the grind of taking ugly, fragile systems and making them solid.
 
 ---
 
+### What I Spend My Time On
 
-### 📫 Connect with me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/[YOUR_LINK])
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://[YOUR_WEBSITE])
+- **Backend Architecture & Modularization:** Breaking monoliths into clean boundaries (Clean Architecture / CQRS in **.NET**, modular **FastAPI** services in **Python**), strict layer isolation, transactional outbox/inbox patterns, and legacy migrations without breaking live traffic.
+- **Data, Persistence & Reliability:** PostgreSQL schema design and migrations, optimistic concurrency, tenant isolation, Redis state/rate-limiting, background job pipelines, and zero-downtime deploy mechanics.
+- **Applied AI Infrastructure:** Multi-provider LLM gateways, structured JSON outputs, tool calling, RAG pipelines (`pgvector`), and strict boundary controls around sensitive data.
+- **Systems & Tooling:** Docker / Compose / Traefik setups, CI/CD pipelines, and Linux utilities.
+
+---
+
+### Core Stack
+
+| Area | Tools |
+|---|---|
+| **Backend** | C# / .NET (`ASP.NET Core`, `EF Core`, `SignalR`, `Hangfire`), Python (`FastAPI`, `SQLAlchemy`, `Alembic`) |
+| **Data & Messaging** | PostgreSQL (`pgvector`), Redis, SQL Server, RabbitMQ, S3 / MinIO |
+| **Testing & Quality** | `xUnit`, `Testcontainers`, `NetArchTest`, `pytest` |
+| **Infra & Delivery** | Docker, Nginx, Traefik, GitHub Actions, Linux (`systemd`) |
+| **Frontend (when shipping end-to-end)** | TypeScript, React, Next.js |
+
+---
+
+> Most of my production and client work lives in private repositories.
